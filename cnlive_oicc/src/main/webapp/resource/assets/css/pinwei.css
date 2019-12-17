@@ -1,0 +1,176 @@
+  li{
+    border:none;
+  }
+  html,body{
+    font-family: "Microsoft Yahei"!important;
+  }
+  .content{
+   
+    margin:0 30px;
+}
+.content p{
+  font-size: 14px;
+}
+.content >div{
+  margin:50px 0;
+ 
+}
+.content >div h3{
+  font-size:26px;
+  color: #f48b18;
+  height: 40px;
+  margin-top: -20px;
+  width: 125px;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.content .quotes-content p{
+  text-indent: 25px;
+  line-height: 20px;
+  color: #4c4844;
+}
+.content .target-content p{
+  margin-top: 20px;
+}
+.content .active-title-content p{
+  margin-top: 20px;
+}
+.content .people-content p{
+  line-height: 16px;
+}
+.content .type .type-content{
+  margin-bottom: 40px;
+}
+.content .type>p{
+   line-height: 24px;
+}
+.content .type>p>span{
+   font-size: 16px;
+   color:#666;
+   font-weight: 600;
+}
+.content .type-content img{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.content .type-content p{
+  line-height: 20px;
+}
+.content .type-content p:nth-child(4){
+  margin-top: 20px;
+  color:#666;
+  font-weight: 600;
+  font-size: 16px;
+}
+.content .type-content p:nth-child(6){
+  margin-top: 20px;
+  color:#666;
+  font-weight: 600;
+  font-size: 16px;
+}
+.content .type-content p:nth-child(10){
+  margin-top: 20px;
+}
+.content .plan-content p{
+   line-height: 20px;
+   text-indent: 25px;
+   font-size: 14px;
+}
+.content .could p{
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.content .invitor p span{
+  margin-right: 15px;
+}
+  .nav li a.selected{
+      background-color: #f48b18;
+  }
+.content .expert{
+	 margin: 0 0;
+	 border-bottom :1px solid #ccc;
+	 height: 300px;
+	 margin :40px 0;
+
+}
+.content .expert:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.content .expert .photo{
+	float: left;
+	width: 228px;
+	margin-right: 40px;
+   max-width: 100%;
+}
+.content .expert .introduce{
+	float: left;
+	width: 800px;
+	height: 257px;
+}
+.content .expert .introduce li.name{
+	font-size: 18px;
+	font-weight: bold;
+}
+.content .expert .introduce li{
+	line-height: 29px;
+}
+.content .expert .introduce li span{
+	font-size: 14px ;
+	font-weight: bold;
+}
+.content .expert .introduce li span+p{
+	display: inline-block;
+
+}
+.content .expert .introduce li.born p{
+	 margin-right: 100px;
+}
+.content .expert .introduce li.works p{
+	margin-right: 60px;
+}
+.content .expert .introduce li.intro p i{
+ font-size: 14px;
+ font-weight: bold;  
+}
+.content .expert .introduce li.prize{
+	 font-size: 14px;
+	 font-weight: bold;
+}
+.page{
+	 width: 600px;
+	 height: 40px;
+	 
+	 margin: 0 auto;
+     }
+   .page ul li{
+	  float: left;
+	  padding: 5px;
+    }
+    .page ul li a{
+    	 display: inline-block;
+    	 width: 36px;
+    	 text-align: center;
+    	 line-height: 34px;
+    	 color: #7f7f7f;
+    	 border-radius:5px;
+    	 background-color: #fbfafb;
+    	 border: 1px solid #ccc;
+    	 text-decoration: none;
+    	 font-weight: 600;
+    }
+    .page ul li a:hover{
+    	background-color: #f8c34f;
+    	border:1px solid #e8b139;
+    	color: #fff;
+    }
+    .ellipsis{
+    	 vertical-align: middle;
+    }
+    .page{
+    	margin-top: 50px;
+    	padding-bottom: 100px;
+    }

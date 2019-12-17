@@ -1,0 +1,195 @@
+@charset "UTF-8";
+html {
+    height: 100%;
+}
+body {
+    background-color: #f3f3f3;
+    height: 100%;
+}
+.containera {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.grzx-l, .grzx-r {
+    background-color: #fdfdfd;
+    min-height: 700px;
+}
+.grzx-l {
+    position: relative;
+    width: 248px;
+    text-align: center;
+}
+.grzx-img {
+    width: 130px;
+    height: 129px;
+    padding: 5px 5px 0px 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    top: -45px;
+}
+.img {
+    background-color: pink;
+    width: 130px;
+    height: 129px;
+}
+.grzx-user {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #373737;
+}
+.grzx-tool {
+    margin-top: 160px;
+}
+.grzx-tool li {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+    color: #4e4e4e;
+    border-bottom: 1px solid #eaeaea;
+}
+.grzx-tool li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.grzx-tool1 a {
+    background: url("http://yweb2.cnliveimg.com/sites/fengcai/160310101718225_612.png") 64px 14px no-repeat;
+}
+.grzx-tool2 a {
+    background: url("http://yweb3.cnliveimg.com/sites/fengcai/160310101716570_122.png") 64px 14px no-repeat;
+}
+.grzx-tool3 a {
+    background: url("http://yweb0.cnliveimg.com/sites/fengcai/160310101705600_887.png") 64px 14px no-repeat;
+}
+.active {
+    background: url("http://yweb3.cnliveimg.com/sites/fengcai/160310101719456_412.png") no-repeat;
+}
+.grzx-tool1.active a {
+    color: #ffffff;
+    background: url("http://yweb1.cnliveimg.com/sites/fengcai/160310101717631_283.png") 64px 14px no-repeat;
+}
+.grzx-tool2.active a {
+    color: #ffffff;
+    background: url("http://yweb0.cnliveimg.com/sites/fengcai/160310101717125_969.png") 64px 14px no-repeat;
+}
+.grzx-tool3.active a {
+    color: #ffffff;
+    background: url("http://yweb1.cnliveimg.com/sites/fengcai/160310101705826_687.png") 64px 14px no-repeat;
+}
+.grzx-r {
+    margin-left: 10px;
+    width: 942px;
+}
+.grzx-head {
+    margin-left: 18px;
+    margin-top: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f48a18;
+}
+.form {
+    margin-top: 90px;
+    margin-left: 234px;
+}
+.grzx-xgmm {
+    margin-left: 110px;
+}
+.grzx-xgmm span {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.form .group, .dialog-form .group {
+    margin-bottom: 28px;
+}
+.form label, .dialog-form label {
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+    font-size: 16px;
+    color: #464646;
+}
+.form input, .dialog-form input, .dialog-form select {
+    width: 350px;
+    height: 47px;
+    border: 1px solid #e7e7e7;
+}
+.form button, .dialog-form button {
+    background-color: #f48a18;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    width: 176px;
+    height: 49px;
+    margin-left: 144px;
+    margin-top: 65px;
+}
+.grzx-cszp {
+    margin: 160px 234px 0px;
+    text-align: center;
+}
+.grzx-cszp img {
+    display: block;
+}
+.grzx-cszp span {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 26px;
+    color: #323232;
+}
+.button {
+    background-color: #f48a18;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    width: 176px;
+    height: 49px;
+    margin: 107px auto 0px;
+    text-align: center;
+    line-height: 49px;
+}
+.mask-full {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: #000000;
+    opacity: .6;
+}
+.dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 540px;
+    height: 420px;
+    z-index: 1000;
+    margin-left: -270px;
+    margin-top: -210px;
+    background-color: #ffffff;
+}
+.dialog-header {
+    position: relative;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 24px;
+}
+.dialog-close {
+    position: absolute;
+    top: 0px;
+    right: 24px;
+}
+.dialog-form {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.dialog-form button {
+    margin-top: 40px;
+}

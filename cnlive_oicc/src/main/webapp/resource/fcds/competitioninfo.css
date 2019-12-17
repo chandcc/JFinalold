@@ -1,0 +1,83 @@
+.content{
+	 
+	  margin:0 30px;
+}
+.content p{
+	font-size: 14px;
+}
+.content >div{
+	margin:50px 0;
+	border-top:1px solid #f48b18;
+}
+.content >div h3{
+	font-size:26px;
+	color: #f48b18;
+	height: 40px;
+	margin-top: -20px;
+	width: 125px;
+	background-color: #fff;
+	font-weight: 600;
+}
+.content >div:last-child h3{
+	 width: 220px;
+}
+.content .quotes-content p{
+	text-indent: 25px;
+	line-height: 20px;
+	color: #4c4844;
+}
+.content .target-content p{
+	margin-top: 20px;
+}
+.content .active-title-content p{
+	margin-top: 20px;
+}
+.content .people-content p{
+	line-height: 16px;
+}
+.content .type .type-content{
+	margin-bottom: 40px;
+}
+.content .type>p{
+	 line-height: 24px;
+}
+.content .type>p>span{
+   font-size: 16px;
+   color:#666;
+   font-weight: 600;
+}
+.content .type-content img{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+.content .type-content p{
+	line-height: 20px;
+}
+.content .type-content p:nth-child(4){
+	margin-top: 20px;
+	color:#666;
+	font-weight: 600;
+	font-size: 16px;
+}
+.content .type-content p:nth-child(6){
+	margin-top: 20px;
+	color:#666;
+	font-weight: 600;
+	font-size: 16px;
+}
+.content .type-content p:nth-child(10){
+  margin-top: 20px;
+}
+.content .plan-content p{
+	 line-height: 20px;
+	 text-indent: 25px;
+	 font-size: 14px;
+}
+.content .could p{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 10px;
+}
+.content .invitor p span{
+	margin-right: 15px;
+}

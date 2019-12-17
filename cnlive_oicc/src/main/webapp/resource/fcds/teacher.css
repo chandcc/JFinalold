@@ -1,0 +1,163 @@
+
+.competition-news .img{
+	 margin: 20px 20px 20px 20px;
+	 width:250px;
+	 float: left;
+     
+
+}
+.competition-news{
+  box-sizing: border-box;
+  background-color:#f9f9f9;
+  border-bottom:3px dotted #91e4e5;
+  box-shadow: 0 2px 2px  2px #e2e2e2; 
+}
+.competition-news .title{
+	 border: none;
+   border: none;
+}
+.competition-news .img .infomation .title{
+   width: 250px;
+   text-align: center;
+  
+}
+ .title h2{
+
+ }
+ .title .search{
+ 	  float: right;
+ 	  width: 400px;
+
+ }
+ .title .search select{
+ 	height: 40px;
+ }
+ .title .search input{
+ 	line-height: 34px;
+
+ }
+ .searchdiv{ 
+   float: right;
+ 	width: 400px;
+height:60px;
+padding:8px 0 0 0;
+margin-top: 8px;
+margin-right: 80px;
+text-align:center
+}
+/*.footerSearch .searchBar{margin:0 auto;}*/
+.searchTool{ 
+	border: 2px solid #f8c34f;
+width:420px;
+height:40px;
+line-height:32px;
+margin:0px auto 0 auto; 
+text-align:left; 
+background:#fff;
+}
+.choose{
+float:left;
+cursor:pointer;
+height:40px;
+width:100px; 
+display:inline-block;
+position:relative;
+line-height:32px;
+font-size:12px; 
+text-align:center;
+padding-right:10px;
+}
+/*下拉箭头样式*/
+.choose b{
+position:absolute;
+right:8px;
+top:14px;
+width:0;
+height:0;
+border-width:4px 4px;
+border-style:solid;
+border-color:#868686 #fff #fff;
+font-size:0;line-height:0;
+}
+
+.searchTextInit{
+box-sizing: border-box;
+height:36px;
+line-height:36px;
+border:0;
+border-left:2px solid #eca128;
+padding:0 8px;
+font-size:12px;
+color:#333;
+color:gray;
+width:250px; 
+background:#fff;
+float:left;
+outline: none;
+}
+.searchTextInput{
+height:40px;
+line-height:40px;
+border:0;
+border-left:2px solid #eca128;
+padding:0 8px; /*上 右 下 左*/
+font-size:12px;
+color:black;
+width:250px; 
+background:#fff;
+float:left
+}
+.searchBtn{
+float:left;
+height:38px;
+width:66px; 
+background:#f8c34f;
+color: #fff;
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+cursor:pointer;
+border:0;
+vertical-align: middle;
+
+}
+.choose ul{
+border-bottom:1px solid #eca128;
+list-style:none;
+width:64px;
+padding:0px;
+}
+
+.choose:hover b{border-color:#868686 #fff #fff;}
+
+.choose:hover .choosePop{ 
+display:inline-block;
+}
+
+.choosePop{ 
+display:none;
+width:64px; 
+position:absolute;
+left:-1px;
+top:25px;
+}
+/*鼠标离开列表上效果*/
+.choosePop ul li a:link,.choosePop ul li a:visited{
+color:#666;
+background:#fff;
+}
+/*鼠标移动到列表上效果*/
+.choosePop ul li a:hover,.choosePop ul li a:active{
+color:#2d2d2d;
+background:#ffba00;
+}
+.choosePop ul li{
+border-left:1px solid #eca128;
+border-right:1px solid #eca128;
+line-height:24px;
+}
+.choosePop ul li a{
+display:block;
+font-size:12px;
+text-decoration:none;
+}

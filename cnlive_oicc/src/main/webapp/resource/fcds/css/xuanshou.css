@@ -1,0 +1,59 @@
+.competition-news{
+	background:url('../image/content-bg.png');
+	border:none;
+	box-shadow: 0 2px 2px 3px #eee;
+}
+.competition-news .title{
+	border: none;
+}
+.main-content .head-info{
+	border-bottom: 1px solid #dadada;
+	margin:40px 0;
+	padding-bottom:30px;
+}
+.main-content .head-info .head{
+	float: left;
+}
+.main-content .head-info .head h3{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 34px;
+}
+.main-content .head-info .head>span{
+	font-size: 14px;
+	line-height: 40px;
+}
+.main-content .head-info .head>p{
+	display: inline-block;
+	margin-left: 30px;
+}
+.main-content .head-info .share{
+	float: right;
+	margin-right: 50px;
+}
+.main-content .head-info .share p{
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 34px;
+}
+.main-content .head-info .share ul{
+	margin-top: 5px;
+
+}
+.main-content .head-info .share ul li{
+	float: left;
+	margin-left: 10px;
+	vertical-align: middle;
+	line-height: 24px;
+}
+.acticle p{
+	text-indent:15px;
+	font-size: 14px;
+	margin: 40px 0;
+	line-height: 32px;
+}
+.main-content{
+	width: 1140px;
+	margin: 0 auto;
+	
+}

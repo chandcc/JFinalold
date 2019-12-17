@@ -1,0 +1,274 @@
+@charset "UTF-8";
+html {
+    height: 100%;
+    font-family: "Microsoft Yahei";
+}
+body {
+    background-color: #f3f3f3;
+    height: 100%;
+}
+.containera {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.grzx-l, .grzx-r {
+    background-color: #fdfdfd;
+    min-height: 700px;
+}
+.grzx-l {
+    position: relative;
+    width: 248px;
+    text-align: center;
+}
+.grzx-img {
+    width: 130px;
+    height: 129px;
+    padding: 5px 5px 0px 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    top: -45px;
+}
+.img {
+    background-color: pink;
+    width: 130px;
+    height: 129px;
+}
+.grzx-user {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #373737;
+}
+.grzx-tool {
+    margin-top: 160px;
+}
+.grzx-tool li {
+    height: 53px;
+    line-height: 53px;
+    font-size: 14px;
+    color: #4e4e4e;
+    border-bottom: 1px solid #eaeaea;
+}
+.grzx-tool li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+}
+.grzx-tool1 a {
+    background: url("../image/xiugaiziliao1.png") 64px 14px no-repeat;
+}
+.grzx-tool2 a {
+    background: url("../image/xiugaimima.png") 64px 14px no-repeat;
+}
+.grzx-tool3 a {
+    background: url("../image/cansaizuopin.png") 64px 14px no-repeat;
+}
+.active {
+    background: url("../image/xuanzhongxiaoguo.png") no-repeat;
+}
+.grzx-tool1.active a {
+    color: #ffffff;
+    background: url("../image/xiugaiziliao.png") 64px 14px no-repeat;
+}
+.grzx-tool2.active a {
+    color: #ffffff;
+    background: url("../image/xiugaimima1.png") 64px 14px no-repeat;
+}
+.grzx-tool3.active a {
+    color: #ffffff;
+    background: url("../image/cansaizuopin1.png") 64px 14px no-repeat;
+}
+.grzx-r {
+    margin-left: 10px;
+    width: 942px;
+}
+.grzx-head {
+    margin: 0 20px;
+    margin-top: 22px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f48a18;
+}
+.form {
+    margin-top: 90px;
+    margin-left: 234px;
+}
+.grzx-xgmm {
+    margin-left: 110px;
+}
+.grzx-xgmm span {
+    margin-left: 10px;
+    font-size: 14px;
+}
+.form .group, .dialog-form .group {
+    margin-bottom: 15px;
+}
+.form label, .dialog-form label {
+    display: inline-block;
+    width: 84px;
+    text-align: right;
+    font-size: 16px;
+    color: #464646;
+
+}
+.form input, .dialog-form input, .dialog-form select {
+    width: 350px;
+    height: 47px;
+    border: 1px solid #e7e7e7;
+    margin-left:10px;
+}
+.form button, .dialog-form button {
+    background-color: #f48a18;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    width: 176px;
+    height: 49px;
+    margin-left: 144px;
+    margin-top: 65px;
+}
+.cszp{
+   
+  
+   border-bottom: 1px solid #e7e7e7;
+   line-height: 100px;
+
+
+}
+.cszp:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.grzx-cszp {
+    margin: 0 20px;
+    text-align: center;
+}
+.grzx-cszp .zpmc {
+      float: left;
+
+}
+.grzx-cszp .zpmc{
+      margin-right: 20px;
+}
+.grzx-cszp .zpmc img{
+    vertical-align: middle;
+    width:76px;
+    height: 76px;
+    margin-right: 20px;
+}
+.grzx-cszp .zpmc span {
+    display: inline-block;
+    line-height: 16px;
+    font-size: 16px;
+    color: #323232;
+}
+.grzx-cszp .del-btn{
+     float: right;
+    
+    line-height: 100px;
+    margin-top: 5px;
+}
+.grzx-cszp .del-btn a{
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+     padding: 10px 20px;
+     margin-right: 20px;
+     background-color: #f48a18;
+}
+.grzx-cszp .del-btn a:nth-child(2){
+      background-color: #ACA18D;
+}
+.button {
+    background-color: #f48a18;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+    width: 176px;
+    height: 49px;
+    margin: 107px auto 0px;
+    text-align: center;
+    line-height: 49px;
+    cursor: pointer;
+}
+.mask-full {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: #000000;
+    opacity: .6;
+}
+.dialog {
+    position: fixed;
+    width: 540px;
+    height: 500px;
+    z-index: 1000;
+    background-color: #ffffff;
+}
+.dialog-header {
+    position: relative;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #000000;
+    padding-left: 24px;
+}
+.dialog-close {
+    position: absolute;
+    top: 0px;
+    right: 24px;
+    text-decoration: none;
+}
+.dialog-close:link,.dialog-close:visited,.dialog-close:hover,.dialog-close:active{
+    text-decoration: none;
+}
+.dialog-form {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.dialog-form button {
+    margin-top: 40px;
+    cursor: pointer;
+}
+.upload input[type="file"]{
+    display: none;
+} 
+.upload .file{
+      text-decoration: none;
+      color: #000;
+      width: 100px;
+      line-height: 47px;
+      text-align: center;
+      cursor: pointer;
+      margin-left: 10px;
+      border:1px solid #ccc;
+}
+.upload  .success{
+     width: 350px;
+     margin-left: 98px;
+     line-height: 46px;
+     background-color: #f7f7f7;
+     margin-top: 20px;
+
+}
+.upload  .success p{
+    display: inline-block;
+    font-size: 16px;
+}
+.upload  .success p:first-child{
+   margin-left: 20px;
+}
+.upload  .success p:nth-child(2){
+     float: right;
+}

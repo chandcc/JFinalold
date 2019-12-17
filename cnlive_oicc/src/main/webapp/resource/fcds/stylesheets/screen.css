@@ -1,0 +1,434 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/screen.scss */
+html {
+  font-size: 14px;
+  font-face: "Microsoft Yahei";
+}
+
+/* line 13, ../sass/screen.scss */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+/* line 16, ../sass/screen.scss */
+.container-fluid .nav-bar {
+  background-color: #aca18d;
+  -moz-box-shadow: 2px 4px 1px 0 #827763;
+  -webkit-box-shadow: 2px 4px 1px 0 #827763;
+  box-shadow: 2px 4px 1px 0 #827763;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 21, ../sass/screen.scss */
+.container-fluid ul.nav {
+  list-style-type: disc;
+  width: 1200px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+/* line 25, ../sass/screen.scss */
+.container-fluid ul.nav li {
+  margin-right: 30px;
+}
+/* line 30, ../sass/screen.scss */
+.container-fluid ul.nav li a {
+  font-size: 20px;
+  color: #fefeff;
+  font-weight: 600;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+/* line 33, ../sass/screen.scss */
+.container-fluid ul.nav li a:hover {
+  background-color: #f48b18;
+}
+/* line 36, ../sass/screen.scss */
+.container-fluid ul.nav li a:visited {
+  background-color: #f48b18;
+}
+/* line 39, ../sass/screen.scss */
+.container-fluid ul.nav li a:active {
+  background-color: #f48b18;
+}
+/* line 42, ../sass/screen.scss */
+.container-fluid ul.nav li a .selected {
+  background-color: #f48b18;
+}
+/* line 51, ../sass/screen.scss */
+> .container-fluid ul.nav li a:hover {
+  background-color: #f48b18;
+}
+
+/* line 59, ../sass/screen.scss */
+.main-container {
+  width: 1200px;
+  margin: 40px auto;
+}
+/* line 62, ../sass/screen.scss */
+.main-container .competition-news-title {
+  background: url("http://yweb2.cnliveimg.com/sites/fengcai/160310101705180_954.png") repeat-x;
+}
+/* line 66, ../sass/screen.scss */
+.main-container .competition-news-title .competition-news-title h2 {
+  line-height: 49px;
+  display: inline-block;
+}
+/* line 70, ../sass/screen.scss */
+.main-container .competition-news-title .competition-news-title a {
+  float: right;
+}
+/* line 77, ../sass/screen.scss */
+.main-container .competition-news-list li.selected {
+  border: none;
+  margin-top: 10px;
+}
+/* line 80, ../sass/screen.scss */
+.main-container .competition-news-list li.selected div.img {
+  float: left;
+}
+/* line 81, ../sass/screen.scss */
+.main-container .competition-news-list li.selected div.article {
+  width: 189px;
+  float: right;
+}
+/* line 84, ../sass/screen.scss */
+.main-container .competition-news-list li.selected div.article p {
+  line-height: 18px;
+  display: inline-block;
+}
+/* line 87, ../sass/screen.scss */
+.main-container .competition-news-list li.selected div.article p:first-child {
+  color: #f48b18;
+}
+/* line 92, ../sass/screen.scss */
+.main-container .competition-news-list li.selected img {
+  width: 160px;
+  height: 90px;
+}
+/* line 96, ../sass/screen.scss */
+.main-container .competition-news-list li.selected .title {
+  font-size: 14px;
+  margin-left: 140px;
+}
+/* line 100, ../sass/screen.scss */
+.main-container .competition-news-list li.selected .title p {
+  color: #808080;
+  margin-top: 10px;
+  line-height: 14px;
+}
+/* line 107, ../sass/screen.scss */
+.main-container .competition-news-list li.selected .title h3 {
+  color: #dc7405;
+  font-size: 14px;
+}
+/* line 113, ../sass/screen.scss */
+.main-container .competition-news-list li.selected img {
+  float: left;
+  height: px;
+}
+/* line 117, ../sass/screen.scss */
+.main-container .competition-news-list li.selected img:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* line 126, ../sass/screen.scss */
+.main-container .competition-news-list li.list-child {
+  line-height: 43px;
+  border-bottom: 1px dotted #ccc;
+}
+/* line 129, ../sass/screen.scss */
+.main-container .competition-news-list li.list-child p {
+  display: inline-block;
+}
+/* line 133, ../sass/screen.scss */
+.main-container .competition-news-list li.list-child p.time {
+  float: right;
+}
+/* line 140, ../sass/screen.scss */
+.main-container .infomation-download-list li.list-child {
+  line-height: 41px;
+  border-bottom: 1px dotted #ccc;
+}
+/* line 143, ../sass/screen.scss */
+.main-container .infomation-download-list li.list-child p {
+  display: inline-block;
+}
+/* line 147, ../sass/screen.scss */
+.main-container .infomation-download-list li.list-child p.time {
+  float: right;
+}
+/* line 150, ../sass/screen.scss */
+.main-container .infomation-download-list li.list-child:first-child {
+  color: #e9b590;
+}
+/* line 155, ../sass/screen.scss */
+.main-container .infomation-download-title {
+  background: url("http://yweb2.cnliveimg.com/sites/fengcai/160310101705180_954.png") repeat-x;
+}
+/* line 159, ../sass/screen.scss */
+.main-container .player-style-title {
+  background: url("http://yweb2.cnliveimg.com/sites/fengcai/160310101705180_954.png") repeat-x;
+  margin: 30px 0;
+}
+
+/* line 165, ../sass/screen.scss */
+.teacher-style-title {
+  background: url("http://yweb2.cnliveimg.com/sites/fengcai/160310101705180_954.png") repeat-x;
+  margin: 30px 0;
+}
+
+/* line 169, ../sass/screen.scss */
+.ins-style-title {
+  background: url("http://yweb2.cnliveimg.com/sites/fengcai/160310101705180_954.png") repeat-x;
+  margin: 30px 0;
+}
+
+/* line 173, ../sass/screen.scss */
+.video {
+  height: 261px;
+}
+
+/* line 177, ../sass/screen.scss */
+.player-style-content .col-xs-3 {
+  margin-bottom: 30px;
+}
+/* line 179, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation {
+  margin: 10px 10px;
+}
+/* line 181, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation p {
+  color: #666;
+  font-weight: 600;
+}
+/* line 185, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation .thumb-up {
+  margin-top: 20px;
+  width: 280px;
+}
+/* line 188, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation .thumb-up p {
+  float: left;
+  width: 100px;
+  margin-top: 10px;
+}
+/* line 191, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation .thumb-up p img {
+  vertical-align: middle;
+}
+/* line 196, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation .thumb-up a {
+  vertical-align: middle;
+  color: #fff;
+  font-size: 14px;
+  float: right;
+  padding: 10px 15px;
+  background-color: #f8c44e;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 40px;
+}
+/* line 206, ../sass/screen.scss */
+.player-style-content .col-xs-3 .infomation .thumb-up a:hover {
+  background-color: #dc7405;
+}
+
+/* line 214, ../sass/screen.scss */
+.teacher-style .col-xs-3 {
+  margin-bottom: 30px;
+}
+/* line 216, ../sass/screen.scss */
+.teacher-style .col-xs-3 .infomation {
+  margin-top: 10px;
+  color: #666;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* line 225, ../sass/screen.scss */
+.institution-style .col-xs-3 {
+  margin-bottom: 30px;
+}
+
+/* line 231, ../sass/screen.scss */
+.footer{
+	 width: 100%;
+	 height: 200px;
+	 background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.footer  .content-footer{
+   width: 1200px;
+   margin:0 auto;
+
+
+
+}
+.footer  .content-footer .footer-img{
+	display: inline-block;
+	margin-top: 30px;
+}
+.footer  .content-footer .footer-img img{
+  
+   height: 100px;
+}
+.footer .footer-right{
+	margin-top: 30px;
+	 float: right;
+}
+.footer .footer-right  ul li{
+	color: #565656;line-height: 30px;text-align: right;
+}
+.footer .footer-right  ul li ul li{
+	  float: left;
+	  color: #fff;
+	 height: 30px;
+    
+}
+
+.footer .footer-right  ul li ul li a{
+	  color:#565656;
+	  text-decoration: none;
+}
+.footer .footer-right  ul li ul li p{
+	line-height: 30px;
+	 margin-bottom: 10px;
+}
+.player-style-title h2{
+        background:url('http://yweb2.cnliveimg.com/sites/fengcai/160310101715360_160.png') no-repeat;
+        width: 157px;
+        text-indent: 20px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 49px;
+        display: inline-block;
+      }
+      .player-style-title a{
+      	 float: right;
+      	 margin-right: 10px;
+      }
+      .competition-news-title h2{
+        background:url('http://yweb2.cnliveimg.com/sites/fengcai/160310101715360_160.png') no-repeat;
+        width: 157px;
+        text-indent: 20px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 49px;
+        display: inline-block;
+      }
+      .competition-news-title a{
+      	 float: right;
+      	 margin-right: 10px;
+      }
+      .infomation-download-title h2{
+        background:url('http://yweb2.cnliveimg.com/sites/fengcai/160310101715360_160.png') no-repeat;
+        width: 157px;
+        text-indent: 20px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 49px;
+        display: inline-block;
+      }
+      .infomation-download-title a{
+      	 float: right;
+      	 margin-right: 10px;
+      }
+      .teacher-style-title h2{
+        background:url('http://yweb2.cnliveimg.com/sites/fengcai/160310101715360_160.png') no-repeat;
+        width: 157px;
+        text-indent: 20px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 49px;
+        display: inline-block;
+      }
+      .teacher-style-title a{
+      	 float: right;
+      	 margin-right: 10px;
+      }
+      .ins-style-title h2{
+        background:url('http://yweb2.cnliveimg.com/sites/fengcai/160310101715360_160.png') no-repeat;
+        width: 157px;
+        text-indent: 20px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 49px;
+        display: inline-block;
+      }
+      .ins-style-title a{
+      	 float: right;
+      	 margin-right: 10px;
+      }
